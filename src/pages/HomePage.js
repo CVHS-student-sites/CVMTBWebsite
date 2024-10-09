@@ -1,26 +1,39 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Carousel } from 'flowbite-react';
+import { Carousel, Flowbite } from 'flowbite-react';
+
+const customTheme = {
+    carousel: {
+            indicators: {
+                active: {
+                    off: "bg-white/50 hover:bg-white dark:bg-gray-800/50 dark:hover:bg-gray-800",
+                    on: "bg-white dark:bg-gray-800"
+                },
+            }
+    }
+};
 
 function HomePage() {
+
     return (
-        <main className="bg-gray-800 text-white py-8">
+        <main className="bg-blue-900 text-white py-8">
             <div className="max-w-screen-xl mx-auto text-center">
                 {/* Title and Subtitle */}
                 <h1 className="text-4xl font-bold mb-4">Crescenta Valley Mountain Biking</h1>
-                <h2 className="text-2xl mb-6 font-bold">Welcome to CV MTB – Home of camaraderie and competition.</h2>
+                <h2 className="text-2xl mb-6 font-bold">
+                    Welcome to CV MTB – Home of camaraderie and competition.
+                </h2>
 
                 {/* Carousel */}
-                <div className="mb-8 h-96" data-carousel="slide">
-                    <Carousel slideInterval={3000} indicators={true} leftControl="&#10094;" rightControl="&#10095;">
-                        <img src='/assets/images/jonkler.png' alt="Carousel 1"
-                             className="object-cover md:h-96"/>
-                        <img src='/assets/images/makesuretodoitonafriday-v0-jl0vw12129kd1.png' alt="Carousel 2"
-                             className="object-cover md:h-96"/>
-                        <img src='/assets/images/jonkler.png' alt="Carousel 3"
-                             className="object-cover md:h-96"/>
-                    </Carousel>
-                </div>
+                <Flowbite theme={{ theme: customTheme }}>
+                    <div className="mt-10 mb-10 h-56 sm:h-64 xl:h-80 2xl:h-96">
+                        <Carousel slide={true} slideInterval={2500}>
+                            <img src="/assets/images/maxres.jpg" alt="..."/>
+                            <img src="/assets/images/maxresdefault.jpg" alt="..."/>
+                            <img src="/assets/images/test.jpg" alt="..."/>
+                        </Carousel>
+                    </div>
+                </Flowbite>
 
                 {/* Description */}
                 <p className="text-lg mb-6 max-w-2xl mx-auto">
@@ -31,9 +44,9 @@ function HomePage() {
 
                 {/* Call-to-Action Buttons */}
                 <div className="flex justify-center space-x-4 mb-8">
-                    <Link to="/join" className="bg-blue-600 px-4 py-2 rounded text-white">Joining</Link>
-                    <Link to="/contact" className="bg-blue-600 px-4 py-2 rounded text-white">Contact</Link>
-                    <Link to="/donate" className="bg-blue-600 px-4 py-2 rounded text-white">Donate</Link>
+                    <Link to="/join" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white">Joining</Link>
+                    <Link to="/contact" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white">Contact</Link>
+                    <Link to="/donate" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white">Donate</Link>
                 </div>
 
                 {/* Who We Are */}
@@ -76,7 +89,7 @@ function HomePage() {
                 <div className="mb-6">
                     <h2 className="text-2xl font-semibold mb-4">Team Overview</h2>
                     <p className="text-lg max-w-2xl mx-auto">
-                        For the 2024-2025 season, we have x registered high school riders and y middle school riders.
+                        For the 2024-2025 season, we have 50+ registered high school riders and x middle school riders.
                         Last season, our team placed x overall in Division 1.
                     </p>
 

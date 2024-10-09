@@ -2,10 +2,10 @@ import React from 'react';
 
 function EquipmentChecklistPage() {
     return (
-        <main className="bg-gray-800 text-white py-8">
+        <main className="bg-blue-900 text-white py-8 text-left">
             <div className="max-w-screen-lg mx-auto">
                 {/* Title */}
-                <h1 className="text-3xl font-bold mb-6 text-center">What You Need for Races and Practices</h1>
+                <h1 className="text-3xl font-bold mb-6">What You Need for Races and Practices</h1>
 
                 {/* Checklist */}
                 <section className="mb-8">

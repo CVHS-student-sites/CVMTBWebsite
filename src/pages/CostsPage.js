@@ -2,9 +2,9 @@ import React from 'react';
 
 function CostsPage() {
     return (
-        <main className="bg-gray-800 text-white py-8">
+        <main className="bg-blue-900 text-white py-8 text-left">
             <div className="max-w-screen-lg mx-auto">
-                <h1 className="text-3xl font-bold mb-6 text-center">Costs and Registration</h1>
+                <h1 className="text-3xl font-bold mb-6">Costs and Registration</h1>
 
                 {/* SoCal League Registration Fees */}
                 <section className="mb-8">
@@ -32,8 +32,8 @@ function CostsPage() {
                         <li>Register with the SoCal League.</li>
                         <li>Make a donation to the CV MTB team and join the band.</li>
                         <li>Register for races.</li>
-                        <li>Sign up to volunteer.</li>
                     </ol>
+                    Sign up to volunteer during races when possible.
                 </section>
             </div>
         </main>

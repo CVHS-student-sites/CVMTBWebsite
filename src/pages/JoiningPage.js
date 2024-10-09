@@ -2,9 +2,9 @@ import React from 'react';
 
 function JoiningPage() {
     return (
-        <main className="bg-gray-800 text-white py-8">
+        <main className="bg-blue-900 text-white py-8 text-left">
             <div className="max-w-screen-lg mx-auto">
-                <h1 className="text-3xl font-bold mb-6 text-center">Practices & Races</h1>
+                <h1 className="text-3xl font-bold mb-6">Practices & Races</h1>
 
                 {/* Practices */}
                 <section className="mb-8">
@@ -24,6 +24,12 @@ function JoiningPage() {
 
                     <p className="mb-4">
                         <strong>Meeting Location:</strong> Descanso Gardens – meet at 7:45 AM for an 8:00 AM roll time.
+                        <div>
+                            <iframe title="Meeting Location" className={"w-96 h-80"}
+                                    src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=34.203213636612034,%20-118.21001935182382+(Meeting%20Location)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                <a href="https://www.gps.ie/">gps devices</a>
+                            </iframe>
+                        </div>
                     </p>
                     <p className="mb-4">
                         <strong>High School Gym Training:</strong> Parks or local gyms as directed by the Head Coach.
