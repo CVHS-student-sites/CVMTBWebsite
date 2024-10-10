@@ -155,6 +155,7 @@ function App() {
             <Route path="/contact" element={<ContactPage/>}/>
             <Route path="/sponsors" element={<SponsorsPage/>}/>
             <Route path="/equipment" element={<EquipmentChecklistPage/>}/>
+            {/* TODO: Ask if we want a gallery page. */}
           </Routes>
 
           {/* Footer */}
