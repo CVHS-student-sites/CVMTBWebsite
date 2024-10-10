@@ -13,7 +13,7 @@ function ContactPage() {
                     <p className="mb-4">Use the form below to contact us; we will be happy to answer any questions.</p>
                     {/* TODO: Ask coaches what email to link to. */}
                     <p className="mb-4">We are proud to have 24 dedicated coaches who are all volunteers. Here’s the team behind CV MTB:</p>
-                    <p className="mb-4 grid grid-cols-4">
+                    <div className="mb-4 grid grid-cols-4">
                         <ol>
                             <li>Sam</li>
                             <li>Shawn</li>
@@ -46,7 +46,7 @@ function ContactPage() {
                             <li>Anna</li>
                             <li>Eli</li>
                         </ol>
-                    </p>
+                    </div>
                 </section>
 
                 {/* Volunteers */}

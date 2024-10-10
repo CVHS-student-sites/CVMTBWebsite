@@ -37,7 +37,7 @@ function CostsPage() {
                         </li>
                         <li>Register for races.</li>
                     </ol>
-                    <text className="text-justify ml-3 md:ml-0">Sign up to volunteer during races when possible.</text>
+                    <div className="text-justify ml-3 md:ml-0">Sign up to volunteer during races when possible.</div>
                 </section>
             </div>
         </main>

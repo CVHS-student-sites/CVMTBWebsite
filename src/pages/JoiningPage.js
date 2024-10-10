@@ -34,7 +34,7 @@ function JoiningPage() {
                         <li>Pre-season (Saturdays only), same schedule as high school riders during the season.</li>
                     </ul>
 
-                    <p className="mb-4 ml-3 md:ml-0">
+                    <div className="mb-4 ml-3 md:ml-0">
                         <strong>Meeting Location:</strong> Descanso Gardens – meet at 7:45 AM for an 8:00 AM roll time.
                         <div>
                             <iframe title="Meeting Location" className={"w-96 h-80"}
@@ -42,7 +42,7 @@ function JoiningPage() {
                                 <a href="https://www.gps.ie/">gps devices</a>
                             </iframe>
                         </div>
-                    </p>
+                    </div>
                     <p className="mb-4 ml-3 md:ml-0">
                         <strong>High School Gym Training:</strong> Parks or local gyms as directed by the Head Coach.
                     </p>
