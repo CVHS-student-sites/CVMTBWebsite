@@ -5,7 +5,7 @@ function ContactPage() {
         <main className="bg-blue-900 text-white py-8">
             <div className="max-w-screen-lg mx-auto">
                 {/* Title */}
-                <h1 className="text-3xl font-bold mb-6 text-center">Meet the Coaches & Volunteers</h1>
+                <h1 className="text-3xl font-bold mb-6 text-center ml-3 md:ml-0">Meet the Coaches & Volunteers</h1>
 
                 {/* Coaches */}
                 <section className="mb-8">
