@@ -4,7 +4,19 @@ function JoiningPage() {
     return (
         <main className="bg-blue-900 text-white py-8 text-left">
             <div className="max-w-screen-lg mx-auto">
-                <h1 className="text-3xl font-bold mb-6 ml-3 md:ml-0">Practices & Races</h1>
+                <h1 className="text-3xl font-bold mb-6 ml-3 md:ml-0">Joining, Practices & Races</h1>
+
+                {/* Joining */}
+                <section className="mb-8">
+                    <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">Joining the Team</h2>
+                    <p className="mb-4 ml-3 md:ml-0">
+                        If you are a student interested in joining the team, please contact us through the
+                        <a className="text-blue-500" href="/contact"> Contact</a> page, or fill out the appropriate form
+                        at one of our events, and one of our coaches will get back to you shortly with more details.
+                        We welcome riders of all skill levels.
+                        <br/>
+                    </p>
+                </section>
 
                 {/* Practices */}
                 <section className="mb-8">

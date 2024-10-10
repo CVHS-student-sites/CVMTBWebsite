@@ -17,7 +17,7 @@ function CostsPage() {
 
                 {/* Team Donation */}
                 <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">Team Donation</h2>
+                    <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">Recommended Team Donation</h2>
                     <ul className="list-disc list-inside mb-4 text-justify ml-3 md:ml-0">
                         <li>High School: $300</li>
                         <li>Middle School: $200</li>
@@ -30,7 +30,11 @@ function CostsPage() {
                     <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">Registration Process</h2>
                     <ol className="list-decimal list-inside mb-4 text-justify ml-3 md:ml-0">
                         <li>Register with the SoCal League.</li>
-                        <li>Make a donation to the CV MTB team and join the band.</li>
+                        <li>
+                            Make a donation to the CV MTB team and join our
+                            <a href="https://band.us/band/90435782" className="text-blue-500"> Band </a>
+                            for race reminders.
+                        </li>
                         <li>Register for races.</li>
                     </ol>
                     <text className="text-justify ml-3 md:ml-0">Sign up to volunteer during races when possible.</text>
