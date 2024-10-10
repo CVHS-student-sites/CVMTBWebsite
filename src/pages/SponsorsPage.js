@@ -12,7 +12,7 @@ function SponsorsPage() {
                     Our sponsors are a critical part of the team’s success. We’re thankful for their support and encourage our community to support these local businesses. A special thanks to:
                 </p>
 
-                <div className="grid md:grid-cols-3 md:gap-4 grid-cols-2 gap-1">
+                <div className="grid md:grid-cols-3 md:gap-4 grid-cols-2 gap-2">
                     <img src="/assets/images/sponsors/skratch.png" alt="Skratch Labs"
                          className="w-48 h-48 md:w-96 md:h-80 rounded-lg mb-4 ml-4 md:ml-0"/>
                     <img src="/assets/images/sponsors/cyclopunk.png" alt="CycloPunk"
