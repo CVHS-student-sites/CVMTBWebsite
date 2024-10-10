@@ -36,7 +36,7 @@ function HomePage() {
                 </Flowbite>
 
                 {/* Description */}
-                <p className="text-lg mb-6 max-w-2xl mx-auto">
+                    <p className="text-lg mb-6 max-w-2xl md:max-w-fit mx-auto text-justify ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
                     The Crescenta Valley Mountain Biking team has been shaping young riders since 2008.
                     We provide high school and middle school students the opportunity to train, race, and grow as
                     athletes in a supportive environment.
@@ -55,16 +55,15 @@ function HomePage() {
                 {/* Team Origins */}
                 <div className="mb-6">
                     <h3 className="text-2xl font-semibold mb-2">Team Origins</h3>
-                    <p className="text-lg max-w-2xl mx-auto">
+                    <p className="text-lg max-w-2xl md:max-w-fit mx-auto text-justify ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
                         The CV MTB Team was founded in 2008, originally as the CV/Clark/Glendale Composite Team.
-                        Over the years, it has grown into one of the largest and most successful mountain biking teams
+                        Over the years, it has grown into one of the most successful mountain biking teams
                         in Southern California.
                     </p>
-                    <p className="text-lg max-w-2xl mx-auto mt-4">
-                        Part of the SoCal League (<a href="http://www.socalyouthcycling.org"
-                                                     className="text-blue-500">www.socalyouthcycling.org</a>),
-                        established in 2008.
-                        Focused on safe, high-quality, interscholastic mountain biking programs with 1,100 racers across
+                    <p className="text-lg max-w-2xl md:max-w-fit mx-auto mt-4 text-justify ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
+                        The team is part of the <a href="http://www.socalyouthcycling.org" className="text-blue-500">SoCal League</a>,
+                        and was established in 2008.
+                        Focused on safe, high-quality, interscholastic mountain biking programs, the league has 1,100+ racers across
                         20 divisions.
                     </p>
                 </div>
@@ -72,12 +71,12 @@ function HomePage() {
                 {/* Vision */}
                 <div className="mb-6">
                     <h3 className="text-2xl font-semibold mb-2">Vision</h3>
-                    <p className="text-lg max-w-2xl mx-auto">
+                    <p className="text-lg max-w-2xl md:max-w-fit mx-auto text-justify ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
                         We believe mountain biking is more than a sport – it’s a lifelong adventure.
                         We aim to build a strong sense of community, promote the outdoors, and develop lifelong
                         friendships.
                     </p>
-                    <ul className="list-disc list-inside text-left max-w-2xl mx-auto mt-4">
+                    <ul className="list-disc list-inside text-left max-w-2xl md:max-w-fit mx-auto mt-4 ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
                         <li>A life sport that encourages teamwork and personal growth.</li>
                         <li>Everyone contributes, no substitutes, no “1st team/2nd team.”</li>
                         <li>Co-ed team, with scores calculated across both genders.</li>
@@ -88,19 +87,19 @@ function HomePage() {
                 {/* Team Overview */}
                 <div className="mb-6">
                     <h2 className="text-2xl font-semibold mb-4">Team Overview</h2>
-                    <p className="text-lg max-w-2xl mx-auto">
+                    <p className="text-lg max-w-2xl md:max-w-fit mx-auto text-justify ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
                         For the 2024-2025 season, we have 50+ registered high school riders and x middle school riders.
                         Last season, our team placed x overall in Division 1.
                     </p>
 
                     {/* Race Schedule */}
                     <h3 className="text-xl font-semibold mt-6 mb-2">Race Schedule</h3>
-                    <p className="text-lg max-w-2xl mx-auto">
+                    <p className="text-lg max-w-2xl md:max-w-fit mx-auto text-justify ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
                         TBD
                     </p>
 
                     {/* Volunteers Needed */}
-                    <p className="text-lg max-w-2xl mx-auto mt-4">
+                    <p className="text-lg max-w-2xl md:max-w-fit mx-auto mt-4 text-justify ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
                         We require x CV Marshall spots for every race. Each racer is responsible for fulfilling two
                         volunteer slots per season.
                     </p>
