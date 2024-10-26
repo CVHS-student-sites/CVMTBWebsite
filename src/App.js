@@ -28,9 +28,9 @@ function Navbar() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img
-                src="/assets/images/logo2.png"
-                className="h-16"
-                alt="Dark Mode Logo"
+                src="/assets/images/logo1.png"
+                className="h-24"
+                alt="Light Mode Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             {/* Responsive text based on screen size */}

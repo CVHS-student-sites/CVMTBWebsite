@@ -32,7 +32,7 @@ function CostsPage() {
                         <li>Register with the SoCal League.</li>
                         <li>
                             Make a donation to the CV MTB team and join our
-                            <a href="https://band.us/band/90435782" className="text-blue-500"> Band </a>
+                            <a href="https://band.us/band/90435782" target="_blank" rel="noopener noreferrer" className="text-blue-500"> Band </a>
                             for race reminders.
                         </li>
                         <li>Register for races.</li>
