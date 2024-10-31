@@ -25,7 +25,7 @@ function JoiningPage() {
                     <h3 className="text-xl font-semibold mb-2 ml-3 md:ml-0">High School Riders</h3>
                     <ul className="list-disc list-inside mb-4 text-justify ml-1 md:ml-0">
                         <li>Conditioning (August-October): Tuesdays/Thursdays 4:00 PM - 5:30 PM.</li>
-                        <li>Pre-season (October-November): Tuesdays/Thursdays and Saturdays, 8:00 AM - 11:00 AM.</li>
+                        <li>Pre-season (October-November): Saturdays only.</li>
                         <li>Season (December-May): Tuesdays, Thursdays, and Saturdays (no rides on race weeks).</li>
                     </ul>
 
