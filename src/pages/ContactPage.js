@@ -73,7 +73,7 @@ function ContactPage() {
                     </form>
 
                     {/* Coaches List */}
-                    <p className="mb-4">We are proud to have 24 dedicated coaches who are all volunteers. Here’s the team behind CV MTB:</p>
+                    <p className="mb-4">We are proud to have 24 dedicated coaches who are all volunteers. Here’s the team behind CVHS MTB:</p>
                     <div className="mb-4 grid grid-cols-4">
                         <ol>
                             <li>Sam</li>
@@ -117,7 +117,7 @@ function ContactPage() {
                     <p className="mb-4">Artineh, Sam, Jasmine, Heidi, Stephen.</p>
 
                     <h3 className="text-xl font-semibold mb-2">Support Team</h3>
-                    <p className="mb-4">David, Cheryl, Garen, Talin, Joe, Ax.</p>
+                    <p className="mb-4">David, Cheryl, Garen, Talin, Joe, Ax, Grace.</p>
                 </section>
             </div>
         </main>

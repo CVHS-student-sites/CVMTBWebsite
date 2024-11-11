@@ -30,12 +30,12 @@ function EquipmentChecklistPage() {
                     <ul className="list-disc list-inside mb-4">
                         <li>
                             <a href="https://www.incycle.com/pages/pasadena-ca" target="_blank" rel="noopener noreferrer"
-                               className="text-blue-500"> Incycle Pasadena</a> – CV MTB team days
+                               className="text-blue-500"> Incycle Pasadena</a> – CVHS MTB team days
                         </li>
                         <li>
                             <a href="https://www.cyclopunk.com/" target="_blank" rel="noopener noreferrer"
-                               className="text-blue-500"> Cyclopunk </a> by Eli Gunthrie – CV MTB team days
-                            – Mobile Bike Repair – CV MTB discount
+                               className="text-blue-500"> Cyclopunk </a> by Eli Gunthrie – CVHS MTB team days
+                            – Mobile Bike Repair – CVHS MTB discount
                         </li>
                         <li>
                             <a href="https://advdynamics.com/" target="_blank" rel="noopener noreferrer"
@@ -50,7 +50,7 @@ function EquipmentChecklistPage() {
                         <li>
                             <a href="https://www.twowheeltune.com/" target="_blank" rel="noopener noreferrer"
                                className="text-blue-500"> Two Wheel Tune</a> by Lucas Rowton – Mobile bike repair
-                            – CV MTB discount.
+                            – CVHS MTB discount.
                         </li>
                     </ul>
                 </section>

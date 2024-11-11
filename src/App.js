@@ -34,8 +34,8 @@ function Navbar() {
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             {/* Responsive text based on screen size */}
-              <span className="block md:hidden">Crescenta Valley MTB</span>
-            <span className="hidden md:block">Crescenta Valley Mountain Biking</span>
+              <span className="block md:hidden">CVHS MTB</span>
+            <span className="hidden md:block">Crescenta Valley High School Mountain Biking Team</span>
           </span>
           </Link>
           <button

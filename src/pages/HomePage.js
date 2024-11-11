@@ -19,37 +19,37 @@ function HomePage() {
         <main className="bg-blue-900 text-white py-8">
             <div className="max-w-screen-xl mx-auto">
                 {/* Title and Subtitle */}
-                <h1 className="text-4xl font-bold mb-4 text-center">Crescenta Valley Mountain Biking</h1>
+                <h1 className="text-4xl font-bold mb-4 text-center">Crescenta Valley High School Mountain Biking Team</h1>
                 <h2 className="text-2xl mb-6 font-bold text-center">
-                    Welcome to CV MTB – Home of camaraderie and competition.
+                    Welcome to the CVHS MTB team – The home of camaraderie and competition.
                 </h2>
 
                 {/* Carousel */}
                 <Flowbite theme={{ theme: customTheme }}>
                     <div className="mt-10 mb-10 h-56 sm:h-64 xl:h-80 2xl:h-96 text-center">
                         <Carousel slide={true} slideInterval={2500}>
-                            <img src="/assets/images/home/49637516291_70b1928921_o.jpg" alt="..."/>
-                            <img src="/assets/images/home/49637789262_ff7d401e35_o.jpg" alt="..."/>
-                            <img src="/assets/images/home/Group%20Berm.jpg" alt="..."/>
-                            <img src="/assets/images/home/Group%20Climb.jpg" alt="..."/>
-                            <img src="/assets/images/home/Race%201%20Perris%20Climb.jpg" alt="..."/>
-                            <img src="/assets/images/home/CVMTBHS24.jpg " alt="..."/>
-                            <img src="/assets/images/home/CVMTB24HSMSCOACHES.jpg" alt="..."/>
-                            <img src="/assets/images/home/CVMTB23Women.JPEG" alt="..."/>
+                            <img src="/assets/images/home/CVMTBHS24-min.jpg " alt="..."/>
+                            <img src="/assets/images/home/CVMTB24HSMSCOACHES-min.jpg" alt="..."/>
+                            <img src="/assets/images/home/CVMTB23Women-min.JPEG" alt="..."/>
+                            <img src="/assets/images/home/49637516291_70b1928921_o-min.jpg" alt="..."/>
+                            <img src="/assets/images/home/49637789262_ff7d401e35_o-min.jpg" alt="..."/>
+                            <img src="/assets/images/home/Group%20Berm-min.jpg" alt="..."/>
+                            <img src="/assets/images/home/Group%20Climb-min.jpg" alt="..."/>
+                            <img src="/assets/images/home/Race%201%20Perris%20Climb-min.jpg" alt="..."/>
                         </Carousel>
                     </div>
                 </Flowbite>
 
                 {/* Description */}
                 <p className="md:flex md:items-center text-lg mb-6 mx-auto text-justify ml-3 mr-3 md:text-center md:ml-0 md:mr-0">
-                    The Crescenta Valley Mountain Biking team has been shaping young riders since 2008.
+                    The Crescenta Valley High School Mountain Biking team has been shaping young riders since 2008.
                     We provide high school and middle school students the opportunity to train, race, and grow as
                     athletes in a supportive environment.
                 </p>
 
                 {/* Call-to-Action Buttons */}
                 <div className="flex justify-center space-x-4 mb-8 text-center">
-                    <Link to="/join" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white">Joining</Link>
+                    <Link to="/join" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white">How to Join</Link>
                     <Link to="/contact" className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white">Contact</Link>
                     {/* TODO: Ask coaches how we want donations to work. */}
                 </div>
@@ -61,9 +61,9 @@ function HomePage() {
                 <div className="mb-6">
                     <h3 className="text-2xl font-semibold mb-2 text-left ml-3 mr-3 md:ml-0 md:mr-0">Team Origins</h3>
                     <p className="text-lg mx-auto text-justify ml-3 mr-3 md:text-left md:ml-0 md:mr-0">
-                        The CV MTB Team was founded in 2008, originally as the CV/Clark/Glendale Composite Team.
+                        The CVHS MTB Team was founded in 2008, originally as the CV/Clark/Glendale Composite Team.
                         Over the years, it has grown into one of the most successful mountain biking teams
-                        in Southern California.
+                        in Southern California, and exists as a varsity sport at Crescenta Valley High School.
                     </p>
                     <p className="text-lg mx-auto mt-4 text-justify ml-3 mr-3 md:text-left md:ml-0 md:mr-0">
                         The team is part of the <a href="http://www.socalyouthcycling.org" target="_blank" rel="noopener noreferrer" className="text-blue-500">SoCal League</a>,
@@ -81,10 +81,14 @@ function HomePage() {
                         We aim to build a strong sense of community, promote the outdoors, and develop lifelong
                         friendships.
                     </p>
+                    <br></br>
+                    <p className="text-lg mx-auto text-justify ml-3 mr-3 md:text-left md:ml-0 md:mr-0">
+                        At CVHS MTB, our philosophy seeks to promote:
+                    </p>
                     <ul className="list-disc list-inside text-left mx-auto mt-4 ml-3 mr-3 md:text-left md:ml-0 md:mr-0">
                         <li>A life sport that encourages teamwork and personal growth.</li>
-                        <li>Everyone contributes, no substitutes, no “1st team/2nd team.”</li>
-                        <li>Co-ed team, with scores calculated across both genders.</li>
+                        <li>A team where everyone contributes, no substitutes, no “1st team/2nd team.”</li>
+                        <li>A co-ed team, with scores calculated across both genders.</li>
                         <li>A spirit of camaraderie and competition that leads to lasting memories.</li>
                     </ul>
                 </div>
@@ -103,9 +107,9 @@ function HomePage() {
                         achieving podium finishes throughout the season.
                         <br></br>
                         <br></br>
-                        For the second consecutive year, we have our largest ever Freshman Class this 2024-25
-                        season with 15 incoming 9th Grade Racers, including some fast Freshman Girls, ready to pitch in
-                        and contribute to our team results!
+                        For the second consecutive year, the 2024-25 team boasts our largest ever Freshman Class, with
+                        15 incoming 9th Grade Racers, Girls and Boys, ready to pitch in and contribute to our team
+                        results!
                         <br></br>
                         <br></br>
                     </p>
@@ -128,13 +132,13 @@ function HomePage() {
                     {/* Volunteers Needed */}
                     <h3 className="text-xl font-semibold mt-6 mb-2 text-left ml-3 mr-3 md:ml-0 md:mr-0">Volunteer</h3>
                     <p className="text-lg mx-auto mt-4 text-justify ml-3 mr-3 md:text-left md:ml-0 md:mr-0">
-                        CV MTB has a strong culture of volunteering with all coaches, booster club members,
+                        CVHS MTB has a strong culture of volunteering with all coaches, booster club members,
                         and parents devoting their time to promote physical health, community building, and
                         love of the outdoors with our students. CVHS riders mentor and help younger MS riders build up
                         their biking skills, physical fitness, confidence, and model responsible behavior.
                         <br></br>
                         <br></br>
-                        Parents of CV MTB riders coach or volunteer as Course Marshals at SoCal mountain bike
+                        Parents of CVHS MTB riders coach or volunteer as Course Marshals at SoCal mountain bike
                         races at least twice per season.
                         <br></br>
                         <br></br>
