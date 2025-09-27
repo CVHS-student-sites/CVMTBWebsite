@@ -5,9 +5,9 @@ function CostsPage() {
     return (
         <main className="bg-blue-900 text-white py-8 text-left">
             <div className="max-w-screen-lg mx-auto">
+
                 <h1 className="text-3xl font-bold mb-6 ml-3 md:ml-0">Costs and Registration</h1>
 
-                {/* SoCal League Registration Fees */}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">SoCal League Registration Fees</h2>
                     <ul className="list-disc list-inside mb-4 text-justify ml-3 md:ml-0">
@@ -17,7 +17,6 @@ function CostsPage() {
                     </ul>
                 </section>
 
-                {/* Team Donation */}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">Recommended Team Donation</h2>
                     <ul className="list-disc list-inside mb-4 text-justify ml-3 md:ml-0">
@@ -27,7 +26,6 @@ function CostsPage() {
                     </ul>
                 </section>
 
-                {/* Registration Process */}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">Registration Process</h2>
                     <p className="mb-4 ml-3 md:ml-0">

@@ -4,10 +4,9 @@ function SponsorsPage() {
     return (
         <main className="bg-blue-900 text-white py-8">
             <div className="max-w-screen-lg mx-auto flex-col ">
-                {/* Title */}
+
                 <h1 className="text-3xl font-bold mb-6 text-center md:ml-0">Our Sponsors</h1>
 
-                {/* Content */}
                 <p className="mb-4">
                     Our sponsors are a critical part of the team’s success. We’re thankful for their support and encourage our community to support these local businesses. A special thanks to:
                 </p>

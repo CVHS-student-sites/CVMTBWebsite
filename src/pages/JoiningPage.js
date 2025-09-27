@@ -5,9 +5,9 @@ function JoiningPage() {
     return (
         <main className="bg-blue-900 text-white py-8 text-left">
             <div className="max-w-screen-lg mx-auto">
+
                 <h1 className="text-3xl font-bold mb-6 ml-3 md:ml-0">Joining, Practices & Races</h1>
 
-                {/* Joining */}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">Joining the Team</h2>
                     <p className="mb-4 ml-3 md:ml-0">
@@ -21,7 +21,6 @@ function JoiningPage() {
                     </p>
                 </section>
 
-                {/* Practices */}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">Practices</h2>
 
@@ -54,7 +53,6 @@ function JoiningPage() {
                     </p>
                 </section>
 
-                {/* Race Days */}
                 <section className="mb-8 ml-3 md:ml-0">
                     <h2 className="text-2xl font-semibold mb-4">Race Days</h2>
                     <p className="mx-auto text-justify ml-3 mr-3 md:text-left md:ml-0 md:mr-0">

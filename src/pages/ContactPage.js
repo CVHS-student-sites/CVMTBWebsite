@@ -24,15 +24,13 @@ function ContactPage() {
     return (
         <main className="bg-blue-900 text-white py-8">
             <div className="max-w-screen-lg mx-auto">
-                {/* Title */}
+
                 <h1 className="text-3xl font-bold mb-6 text-center ml-3 md:ml-0">Meet the Coaches & Volunteers</h1>
 
-                {/* Coaches */}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4">Coaches</h2>
                     <p className="mb-4">Use the form below to contact us; we will be happy to answer any questions.</p>
 
-                    {/* Contact Form */}
                     <form onSubmit={handleSubmit} className="mb-8">
                         <div className="mb-4">
                             <label className="block text-white mb-2" htmlFor="email">Your Email</label>
@@ -72,7 +70,6 @@ function ContactPage() {
                         <button type="submit" className="bg-white text-blue-900 px-4 py-2">Send</button>
                     </form>
 
-                    {/* Coaches List */}
                     <p className="mb-4">We are proud to have 29 dedicated coaches who are all volunteers. Here’s the team behind CVHS MTB:</p>
                     <div className="mb-4 grid grid-cols-5">
                         <ol>
@@ -117,7 +114,6 @@ function ContactPage() {
                     </div>
                 </section>
 
-                {/* Volunteers */}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4">Volunteers</h2>
                     <h3 className="text-xl font-semibold mb-2">Booster Club Board</h3>

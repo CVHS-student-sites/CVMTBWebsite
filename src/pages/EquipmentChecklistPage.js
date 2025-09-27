@@ -4,10 +4,9 @@ function EquipmentChecklistPage() {
     return (
         <main className="bg-blue-900 text-white py-8 text-left">
             <div className="max-w-screen-lg mx-auto">
-                {/* Title */}
+
                 <h1 className="text-3xl font-bold mb-6 ml-3 md:ml-0">What You Need for Races and Practices</h1>
 
-                {/* Checklist */}
                 <section className="mb-8 ml-3 md:ml-0">
                     <p className="mb-4">Every rider is required to bring the following:</p>
                     <ul className="list-disc list-inside mb-4">
@@ -23,7 +22,6 @@ function EquipmentChecklistPage() {
                     </ul>
                 </section>
 
-                {/* Local Bike Repair */}
                 <section className="mb-8 ml-3 md:ml-0">
                     <h2 className="text-2xl font-semibold mb-4">Local Bike Repair</h2>
                     <p className="mb-4">Riders can schedule bike repairs or gear purchases at these recommended shops:</p>

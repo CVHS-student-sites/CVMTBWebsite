@@ -103,7 +103,7 @@ function HomePage() {
                         occurs on the<Link to="https://band.us/band/90435782" target="_blank"
                                         rel="noopener noreferrer" className="text-blue-500"> Band App. </Link>
                     </p>
-                    {/* Race Schedule */}
+
                     <h3 className="text-xl font-semibold mt-6 mb-2 text-left ml-3 mr-3 md:ml-0 md:mr-0">XC MTB Racing</h3>
                     <p className="text-lg mx-auto text-justify ml-3 mr-3 md:text-left md:ml-0 md:mr-0">
 						Race Schedule and Rider Placement can be found here:
