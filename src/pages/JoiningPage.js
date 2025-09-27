@@ -43,7 +43,7 @@ function JoiningPage() {
                         <strong>Meeting Location:</strong> Descanso Gardens – Meet at 7:45AM for 8:00AM roll time on
                         Saturdays and 3:45PM for 4:00PM roll time on Tuesdays / Thursdays.
                         <div>
-                            <iframe title="Meeting Location" className={"w-96 h-80"}
+                            <iframe title="Meeting Location" className={"w-96 h-80 mt-4"}
                                     src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=34.203213636612034,%20-118.21001935182382+(Meeting%20Location)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                                 <a href="https://www.gps.ie/">gps devices</a>
                             </iframe>

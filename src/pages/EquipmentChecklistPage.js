@@ -34,23 +34,13 @@ function EquipmentChecklistPage() {
                         </li>
                         <li>
                             <a href="https://www.cyclopunk.com/" target="_blank" rel="noopener noreferrer"
-                               className="text-blue-500"> Cyclopunk </a> by Eli Gunthrie – CVHS MTB team days
+                               className="text-blue-500"> Cyclopunk </a> by Eli Guthrie – CVHS MTB team days
                             – Mobile Bike Repair – CVHS MTB discount
                         </li>
                         <li>
                             <a href="https://advdynamics.com/" target="_blank" rel="noopener noreferrer"
                                className="text-blue-500"> Advanced Dynamics</a> by Travis Taylor
                             – Suspension service – 15% discount.
-                        </li>
-                        <li>
-                            <a href="https://www.montrosebikeshop.com/" target="_blank" rel="noopener noreferrer"
-                               className="text-blue-500"> Montrose Bike Shop</a> – 10% discount on parts, accessories,
-                            and labor.
-                        </li>
-                        <li>
-                            <a href="https://www.twowheeltune.com/" target="_blank" rel="noopener noreferrer"
-                               className="text-blue-500"> Two Wheel Tune</a> by Lucas Rowton – Mobile bike repair
-                            – CVHS MTB discount.
                         </li>
                     </ul>
                 </section>

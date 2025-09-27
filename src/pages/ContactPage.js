@@ -73,40 +73,47 @@ function ContactPage() {
                     </form>
 
                     {/* Coaches List */}
-                    <p className="mb-4">We are proud to have 24 dedicated coaches who are all volunteers. Here’s the team behind CVHS MTB:</p>
-                    <div className="mb-4 grid grid-cols-4">
+                    <p className="mb-4">We are proud to have 29 dedicated coaches who are all volunteers. Here’s the team behind CVHS MTB:</p>
+                    <div className="mb-4 grid grid-cols-5">
                         <ol>
                             <li>Sam</li>
                             <li>Shawn</li>
+                            <li>Brett</li>
                             <li>Brian</li>
                             <li>Geoff</li>
                             <li>Carl</li>
-                            <li>Renee</li>
                         </ol>
                         <ol>
-                            <li>David</li>
+							<li>Garen</li>
+							<li>David</li>
                             <li>Tim</li>
-                            <li>Ken</li>
-                            <li>David</li>
-                            <li>Allen</li>
+                            <li>Dave</li>
                             <li>Lyndsay</li>
-                        </ol>
-                        <ol>
-                            <li>Garen</li>
-                            <li>Andre</li>
-                            <li>Kristen</li>
                             <li>Jesse</li>
-                            <li>Ax</li>
-                            <li>Wayne</li>
                         </ol>
                         <ol>
-                            <li>Tony</li>
-                            <li>Andy</li>
-                            <li>Gabe</li>
-                            <li>Ric</li>
-                            <li>Anna</li>
-                            <li>Eli</li>
+							<li>Ax</li>
+							<li>Tony</li>
+							<li>Andy</li>
+							<li>Gabe</li>
+                            <li>Andrea</li>
+                            <li>Travis</li>
                         </ol>
+                        <ol>
+							<li>Rebecca</li>
+							<li>Jon</li>
+							<li>Alec</li>
+							<li>Anna</li>
+							<li>Robbie</li>
+							<li>Brady</li>
+                        </ol>
+						<ol>
+							<li>Craig</li>
+							<li>Sev</li>
+							<li>Jack</li>
+							<li>Ric</li>
+							<li>Steve</li>
+						</ol>
                     </div>
                 </section>
 
@@ -117,7 +124,7 @@ function ContactPage() {
                     <p className="mb-4">Artineh, Sam, Jasmine, Heidi, Stephen.</p>
 
                     <h3 className="text-xl font-semibold mb-2">Support Team</h3>
-                    <p className="mb-4">David, Cheryl, Garen, Talin, Joe, Ax, Grace.</p>
+                    <p className="mb-4">Cheryl, Talin, Grace, Ax, Michael, Marsha, Jimo.</p>
                 </section>
             </div>
         </main>

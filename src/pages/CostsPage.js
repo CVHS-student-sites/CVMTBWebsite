@@ -11,8 +11,9 @@ function CostsPage() {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 ml-3 md:ml-0">SoCal League Registration Fees</h2>
                     <ul className="list-disc list-inside mb-4 text-justify ml-3 md:ml-0">
-                        <li>High School: $129.03 annually + $60 per race.</li>
-                        <li>Middle School: $129.03 annually + $40 per race.</li>
+						<li>Membership Fee of $375 for 2025-2026 season</li>
+						<li>Late Season Registration - after December 1st - Add $25</li>
+						<li>Registration closes February 1st 2026</li>
                     </ul>
                 </section>
 
@@ -42,10 +43,9 @@ function CostsPage() {
                         <li>Register with the SoCal League.</li>
                         <li>
                         Make a donation to the CVHS MTB team and join our
-                            <a href="https://band.us/band/90435782" target="_blank" rel="noopener noreferrer" className="text-blue-500"> Band </a>
+                            <Link to="https://band.us/band/90435782" target="_blank" rel="noopener noreferrer" className="text-blue-500"> Band </Link>
                             for race reminders.
                         </li>
-                        <li>Register for races.</li>
                     </ol>
                     <div className="text-justify ml-3 md:ml-0">Sign up to volunteer during races when possible.</div>
                 </section>

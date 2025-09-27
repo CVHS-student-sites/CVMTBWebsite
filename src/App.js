@@ -163,7 +163,7 @@ function App() {
             <div
                 className="w-full mx-auto max-w-screen-xl p-4 flex flex-col items-center sm:flex-row sm:justify-between">
               <Footer.Copyright
-                  by="Crescenta Valley Mountain Biking"
+                  by="Crescenta Valley Mountain Biking - Created and Maintained by Vitaly Vakhteev"
                   year={2024}
               />
               <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center sm:content-center">
