@@ -70,7 +70,7 @@ function ContactPage() {
                         <button type="submit" className="bg-white text-blue-900 px-4 py-2">Send</button>
                     </form>
 
-                    <p className="mb-4">We are proud to have 29 dedicated coaches who are all volunteers. Here’s the team behind CVHS MTB:</p>
+                    <p className="mb-4">We are proud to have 31 dedicated coaches who are all volunteers. Here’s the team behind CVHS MTB:</p>
                     <div className="mb-4 grid grid-cols-5">
                         <ol>
                             <li>Sam</li>
@@ -79,34 +79,36 @@ function ContactPage() {
                             <li>Brian</li>
                             <li>Geoff</li>
                             <li>Carl</li>
+							<li>Garen</li>
                         </ol>
                         <ol>
-							<li>Garen</li>
 							<li>David</li>
                             <li>Tim</li>
                             <li>Dave</li>
                             <li>Lyndsay</li>
                             <li>Jesse</li>
-                        </ol>
-                        <ol>
 							<li>Ax</li>
 							<li>Tony</li>
+                        </ol>
+                        <ol>
 							<li>Andy</li>
 							<li>Gabe</li>
                             <li>Andrea</li>
                             <li>Travis</li>
-                        </ol>
-                        <ol>
 							<li>Rebecca</li>
 							<li>Jon</li>
 							<li>Alec</li>
+                        </ol>
+                        <ol>
 							<li>Anna</li>
 							<li>Robbie</li>
 							<li>Brady</li>
-                        </ol>
-						<ol>
+							<li>Jeremy</li>
+							<li>Scott</li>
 							<li>Craig</li>
 							<li>Sev</li>
+                        </ol>
+						<ol>
 							<li>Jack</li>
 							<li>Ric</li>
 							<li>Steve</li>
